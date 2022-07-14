@@ -1,0 +1,35 @@
+.wrapper {
+  .inputGroup {
+    display: flex;
+    margin: 10px 0;
+
+    .taskName {
+      flex-grow: 1;
+      padding: 5px;
+      margin-right: 5px;
+    }
+
+    .taskPrice {
+      width: 100px;
+      margin-right: 5px;
+    }
+
+    .currency {
+      width: 150px;
+      margin-right: 10px;
+    }
+
+    button {
+      width: 150px;
+    }
+  }
+
+  .exchange {
+    display: flex;
+    justify-content: end;
+
+    span {
+      padding: 0 10px;
+    }
+  }
+}
